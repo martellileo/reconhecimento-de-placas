@@ -36,6 +36,6 @@ if results:
             print(f"Placa detectada: {text.strip()}")
 
 # Mostrar a imagem com a caixa da placa
-cv2.imshow("Detecção de Placa", img)
+cv2.imshow("Deteccao de Placa", img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
